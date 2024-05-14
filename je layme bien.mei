@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-Mensural.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-Mensural.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Basic MEI Mensural skeleton</title>
+         </titleStmt>
+         <pubStmt/>
+      </fileDesc>
+      <encodingDesc xml:id="ekxqx701">
+         <appInfo xml:id="aulpase">
+            <application xml:id="am1ybuh1" enddate="2024-05-14T14:42:30" startdate="2024-05-14T14:41:40" version="1.0.14">
+               <name xml:id="n2ee4be">mei-friend</name>
+               <p xml:id="phiunk5">First edit by mei-friend 1.0.14, 7 May 2024.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+ <music xml:id="mc5pagn1">
+    <facsimile xml:id="fru1skj1">
+       <surface xml:id="lerma-p16">
+          <graphic xml:id="gfy97gi2" target="https://objects.library.uu.nl/reader/img.php?obj=1874-27572&amp;img=/13/97/20/139720056453639597855637159520132788360.jpg"/>
+       </surface>
+       <surface xml:id="lerma-p17">
+          <graphic xml:id="gazzu54" target="https://objects.library.uu.nl/reader/img.php?obj=1874-27572&amp;img=/10/23/73/10237388446188126048728312910125175625.jpg"/>
+       </surface>
+    </facsimile>
+    <body xml:id="b4onptl2">
+      <mdiv xml:id="mptrfed">
+        <score xml:id="s2wj4sh1">
+          <scoreDef xml:id="sky1ujy2">
+            <staffGrp xml:id="s2rucd3">
+              <staffDef xml:id="slkucmu2" lines="5" n="1" notationtype="mensural"/>
+              <staffDef xml:id="su66065" lines="5" n="2" notationtype="mensural"/>
+              <staffDef xml:id="sfc3bf8" lines="5" n="3" notationtype="mensural"/>
+              <staffDef xml:id="sqckaer1" lines="5" n="4" notationtype="mensural"/>
+            </staffGrp>
+          </scoreDef>
+          <section xml:id="s405gqd1">
+            <pb xml:id="p78qdvp2" facs="#lerma-p16"/>
+            <staff xml:id="sao9h8g" n="1">
+              <layer xml:id="ll12zfh" n="1">
+                <!-- music content goes in here -->
+              </layer>
+            </staff>
+            <staff xml:id="sucrva6" n="2">
+              <layer xml:id="lbfbdq91" n="1">
+              <pb xml:id="pkj414p2" facs="#lerma-p16"/>
+                <!-- music content goes in here -->
+              </layer>
+            </staff>
+            <pb xml:id="p78qdsp2" facs="#lerma-p17"/>
+            <staff xml:id="screb2b1" n="3">
+              <layer xml:id="l09096o2" n="1">
+              <pb xml:id="p7aw60u1" facs="#lerma-p17"/>
+                <!-- music content goes in here -->
+              </layer>
+            </staff>
+            <staff xml:id="sgg977o1" n="4">
+              <layer xml:id="l5rfrnj1" n="1">
+              <pb xml:id="pvmohbh" facs="#lerma-p17"/>
+                <!-- music content goes in here -->
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+ </music>
+</mei>
