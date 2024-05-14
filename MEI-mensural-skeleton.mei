@@ -21,10 +21,10 @@
  <music xml:id="mc5pagn1">
     <facsimile xml:id="fru1skj1">
        <surface xml:id="lerma-p16">
-          <graphic xml:id="gfy97gi2" target="https://objects.library.uu.nl/reader/img.php?obj=1874-27572&amp;img=/13/97/20/139720056453639597855637159520132788360.jpg" width="0" height="0"/>
+          <graphic xml:id="gfy97gi2" target="https://objects.library.uu.nl/reader/img.php?obj=1874-27572&amp;img=/13/97/20/139720056453639597855637159520132788360.jpg"/>
        </surface>
        <surface xml:id="lerma-p17">
-          <graphic xml:id="gazzu54" target="https://objects.library.uu.nl/reader/img.php?obj=1874-27572&amp;img=/10/23/73/10237388446188126048728312910125175625.jpg" width="0" height="0"/>
+          <graphic xml:id="gazzu54" target="https://objects.library.uu.nl/reader/img.php?obj=1874-27572&amp;img=/10/23/73/10237388446188126048728312910125175625.jpg"/>
        </surface>
     </facsimile>
     <body xml:id="b4onptl2">
@@ -39,26 +39,27 @@
             </staffGrp>
           </scoreDef>
           <section xml:id="s405gqd1">
+            <pb xml:id="p78qdvp2" facs="#lerma-p16"/>
             <staff xml:id="sao9h8g" n="1">
-              <layer xml:id="ll12zfh">
-              <pb xml:id="p78qdvp2" facs="#lerma-p16"/>
+              <layer xml:id="ll12zfh" n="1">
                 <!-- music content goes in here -->
               </layer>
             </staff>
             <staff xml:id="sucrva6" n="2">
-              <layer xml:id="lbfbdq91">
+              <layer xml:id="lbfbdq91" n="1">
               <pb xml:id="pkj414p2" facs="#lerma-p16"/>
                 <!-- music content goes in here -->
               </layer>
             </staff>
+            <pb xml:id="p78qdsp2" facs="#lerma-p17"/>
             <staff xml:id="screb2b1" n="3">
-              <layer xml:id="l09096o2">
+              <layer xml:id="l09096o2" n="1">
               <pb xml:id="p7aw60u1" facs="#lerma-p17"/>
                 <!-- music content goes in here -->
               </layer>
             </staff>
             <staff xml:id="sgg977o1" n="4">
-              <layer xml:id="l5rfrnj1">
+              <layer xml:id="l5rfrnj1" n="1">
               <pb xml:id="pvmohbh" facs="#lerma-p17"/>
                 <!-- music content goes in here -->
               </layer>
